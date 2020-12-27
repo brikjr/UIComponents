@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.navbar-custom .navbar-brand img {
+  width: 28px;
+}
+
+.navbar-custom .navbar-brand span {
+  font-weight: 700;
+  padding-left: 5px;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.navbar-custom .navbar-toggler {
+  padding: 0;
+  background: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-custom .navbar-toggler i {
+  font-size: 30px;
+  color: #46c3db;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-custom .navbar-nav {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;
+    padding: 20px;
+  }
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  text-transform: capitalize;
+  color: #242424;
+  font-size: 18px;
+  white-space: nowrap;
+  transition: all 0.5s;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #46c3db;
+}
+
+.navbar-custom .navbar-nav .text-blue {
+  color: #46c3db;
+}
+
+.hero {
+  width: inherit;
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 992px) {
+  .hero .row {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
+
+.hero .col-lg-5 {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  .hero .col-lg-5 {
+    margin-top: 30px;
+  }
+}
+
+.hero .col-lg-5 h2 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #46c3db;
+}
+
+.hero .col-lg-5 h2 strong {
+  color: #242424;
+}
+
+.hero .col-lg-5 p {
+  margin-bottom: 30px;
+}
+
+.hero .col-lg-5 .page-btn {
+  background: #46c3db;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.hero .col-lg-5 .page-btn:hover {
+  color: #242424;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+.hero .col-lg-7 {
+  display: flex;
+  justify-content: center;
+}
+
+.hero .col-lg-7 img {
+  display: block;
+  width: 90%;
+}
+
+@media screen and (max-width: 992px) {
+  .hero .col-lg-7 img {
+    width: 80%;
+  }
+}
